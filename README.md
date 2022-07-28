@@ -10,31 +10,31 @@
 
   Being elligible for retirement was determined as employees born between 1952 and 1955 for this analysis.
 
-*retirement_titles.csv
-  *This file shows us the names, emploee numbers, titles, and hire dates of the people identified as being soon to retire.
-  *This file DID NOT exclude those employees who have already left the company.
-  *This file SHOULD NOT be used to asses the impact of the upcoming mass retirement.
+* retirement_titles.csv
+  * This file shows us the names, emploee numbers, titles, and hire dates of the people identified as being soon to retire.
+  * This file DID NOT exclude those employees who have already left the company.
+  * This file SHOULD NOT be used to asses the impact of the upcoming mass retirement.
   
-*unique_titles.csv
-  *This file DID exclude those workers who have already left the company.
-  *These employees are identified as having "to_date"s, for their employment, of 9999-01-01.
-    *This is the exclusionary date meant to identify a non-real/non-existant date.
-  *This file contains relevant information pertaining to those employees deemed elligible for retirement.
+* unique_titles.csv
+  * This file DID exclude those workers who have already left the company.
+  * These employees are identified as having "to_date"s, for their employment, of 9999-01-01.
+    * This is the exclusionary date meant to identify a non-real/non-existant date.
+  * This file contains relevant information pertaining to those employees deemed elligible for retirement.
   
-*retiring_titles.csv
-  *This file contains the number of employees, who are still employed, and are eligible for retirement by their job title.
-  *Senior positions, i.e. Senior Engineers and Senior Staff have the highest numbers of retirement eligible employees.
-    *25,916 and 24,926 respectively.
-  *This data wil help recruiter start preparing for the positions that will need to be filled after the mass exodus of the retiring employees.
-  *The full list can be seen below.
+* retiring_titles.csv
+  * This file contains the number of employees, who are still employed, and are eligible for retirement by their job title.
+  * Senior positions, i.e. Senior Engineers and Senior Staff have the highest numbers of retirement eligible employees.
+    * 25,916 and 24,926 respectively.
+  * This data wil help recruiter start preparing for the positions that will need to be filled after the mass exodus of the retiring employees.
+  * The full list can be seen below.
   
   #### Retiring Titles Results
   ![retiring_titles.csv](https://github.com/Beardlow/Pewlett-Hackard-Analysis/blob/main/retiring_titles.png)
   
-*mentorship_eligibility.csv
-  *This file shows relevant data for employees who were deemed eligible for the mentorship program.
-  *Eligibility was deemed as those employees born during the year 1965.
-  *This table/.csv lists the name, birthday, hire date, and title of those employees deemed eligible.
+* mentorship_eligibility.csv
+  * This file shows relevant data for employees who were deemed eligible for the mentorship program.
+  * Eligibility was deemed as those employees born during the year 1965.
+  * This table/.csv lists the name, birthday, hire date, and title of those employees deemed eligible.
   
 ### Summary
   This analysis found that 72,458 employees are eligible for retirement, and 1,549 employees are eligible for the mentorship program. The following two queries were used to create the retiring_titles table and the Mentorship eligibilty tables, respectively. The mentorship eligibility table was also sorted so that the employees current title was shown instead of a random title that they could have had previously within the company.
