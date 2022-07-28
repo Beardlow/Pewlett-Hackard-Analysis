@@ -5,7 +5,7 @@
 ### Purpose
   The purpose of this project was to take these different data sources and tie them together in one database, then to join and sort tables within this database so that Pewlett Hackard could have an exact understanding of the loss of manpower they would be experiencing in the coming years.
   
-###Results
+### Results
   This analysis relied on SQL and the use of SQL allowed us to find the extent of as well as start planning for the outflow of manpower from the Pewlett Hackard Enterprise. Some of the findings are below.
 
   Being elligible for retirement was determined as employees born between 1952 and 1955 for this analysis.
@@ -36,7 +36,7 @@
   *Eligibility was deemed as those employees born during the year 1965.
   *This table/.csv lists the name, birthday, hire date, and title of those employees deemed eligible.
   
-###Summary
+### Summary
   This analysis found that 72,458 employees are eligible for retirement, and 1,549 employees are eligible for the mentorship program. The following two queries were used to create the retiring_titles table and the Mentorship eligibilty tables, respectively. The mentorship eligibility table was also sorted so that the employees current title was shown instead of a random title that they could have had previously within the company.
   
 #### Retirement by Title Query
